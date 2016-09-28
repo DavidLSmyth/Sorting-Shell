@@ -1,6 +1,26 @@
-I have included JUnit test cases to show that the sorting algorithms work according to the interface. I have also included a file named data.txt which can be used to with
-sort command in the sort class. The program should start with the sort class. The keywords load, sort, tag unload and quit may be used when the programming is running.
-The classes that I have written that can be loaded are Bubblesort, Heap, Merge, InsertionSort and Quick. To run the program, run the sort class and then use the commands
-specified above.
+These are the necessary files to run a Java Sorting Shell.
+Each of the sorting algorithms were written first according to the interface SortingAlgorithms.java
+The .java files with the word test in them are for unit testing.
+Once the sorting algorithms obey the interface and pass the unit tests, then sort.java can be run
+sort.java is the file that runs the shell. 
+The commands for the shell are:
 
-David Smyth    Student number:20337629
+1).   >>> load <algorithm name>
+This loads a sorting algorithm into the shell environment
+
+2).   >>> tag <algorithm name> <new name>
+This renames the algorithm in the shell environment
+
+3).   >>> quit 
+This exits the shell
+
+4).   >>> sort <algorithm name> <input file name> <output file name>
+This sorts a text file using the specified algorithm and writes the text file to an ouput file
+
+5).   >>> unload <algorithm name>
+This unloads the specified algorithm from the shell environment
+
+
+Bubblesort, Heap, Merge, InsertionSort and Quick and the algorithms that should be used in the shell. 
+
+There are a lots of improvements that can be made to this program, it was written as an introduction to Java
