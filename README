@@ -1,8 +1,7 @@
-These are the necessary files to run a Java Sorting Shell.
+Included are the necessary files to run a Java Sorting Shell.
 Each of the sorting algorithms were written first according to the interface SortingAlgorithms.java
 The .java files with the word test in them are for unit testing.
-Once the sorting algorithms obey the interface and pass the unit tests, then sort.java can be run
-sort.java is the file that runs the shell. 
+Once the sorting algorithms obey the interface and pass the unit tests, then sort.java can be run which will start the shell.
 The commands for the shell are:
 
 1).   >>> load <algorithm name>
